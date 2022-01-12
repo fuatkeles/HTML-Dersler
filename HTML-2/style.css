@@ -1,0 +1,25 @@
+#userinfo {
+  background-color: rgb(180, 237, 252);
+}
+#genderinfo {
+  background-color: bisque;
+}
+#favori {
+  border: 3px rgb(255, 64, 0) solid;
+  border-radius: 7px; /* kenarı oval yapar*/
+  background-color: rgba(255, 187, 0, 0.2);
+}
+#gönder {
+  border-color: rgba(0, 225, 255, 0.2);
+  background: transparent;
+  border-radius: 10px;
+  /*background-color: rgba(0, 225, 255, 0.2);*/
+}
+#seçenek {
+  border-color: rgba(0, 225, 255, 0.2);
+  border-radius: 10px;
+}
+#AD {
+  border-color: rgba(0, 225, 255, 0.2);
+  border-radius: 10px;
+}

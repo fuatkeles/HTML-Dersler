@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="result.html" target="_blank">
+        <h2>Sizi Tanıyalım</h2>
+        <!--Input ve label-->        
+        <div id="userinfo">
+            <label for="AD"><strong>İsim:</strong></label>
+            <input type="text" name="Username" id="AD"  placeholder = "Adınız...">
+            <br>
+            <label for="soyad"><strong>Soyisim:</strong></label>
+            <input type="text" name="Soyisim" id="soyad"        placeholder = "Soyadınız...">
+            <br>
+            <label for="Şifre"><strong>Şifre:</strong></label>
+            <input type="text" name="password" id="Şifre" placeholder = "Şifre">        
+            <!-- Placeholder: Input'un içine default yazı yazmaya yarar-->
+            <!-- Label ile input bağlanacaksa; label'ın for'u ile input'un id'si aynı isimde olmalı-->        
+        </div>
+        <hr>
+        <!--Radio-->
+        <div id="genderinfo">
+            <h3>Cinsiyet</h3>
+            <!-- Erkek için radio -->
+            <input type="radio" name="Cinsiyet" id="gender1"> 
+            <label for="gender1">Erkek</label>
+            <!-- Kadın için radio -->
+            <input type="radio" name="Cinsiyet" id="gender2"> 
+            <label for="gender2">Kadın</label>
+        </div>
+        <hr>
+        <!--Checkbox-->
+        <div id="favori">
+        <h3>En sevdiğin hayvanlar</h3>
+        <input type="checkbox" name="animal1" id="panda">
+        <label for="panda">Panda</label>
+        <input type="checkbox" name="animal2" id="kedi">
+        <label for="kedi">Kedi</label>
+        <input type="checkbox" name="animal3" id="köpek">
+        <label for="köpek">Köpek</label>
+        </div>
+        <hr>
+        <!--Number Input-->
+        <div>
+            <label for="yaş"><strong>YAŞ:</strong></label>
+            <input type="number" name="age" id="yaş" min="0" max="99">
+        </div>
+        <br>
+        <!--Search Input-->
+        <div>
+            <label for="search"><strong>Sevdiğiniz Film:</strong></label>
+            <input type="search" name="ara" id="search" placeholder="Film yazın...">
+        </div>
+        <hr>
+        <!--Color Input-->
+        <div>
+            <label for="color"><strong>Sevdiğiniz Renk:</strong></label>
+            <input type="color" name="renk" id="color">
+        </div>
+        <hr>
+        <!--E-posta Input-->
+        <div>
+            <label for="mail"><strong>E-posta:</strong></label>
+            <input type="email" name="eposta" id="mail" required>
+        </div>
+        <hr>
+        <!--File Input-->
+        <div>
+            <label for="file"><strong>Dosya Yükleyin</strong></label>
+            <input type="file" name="dosya" id="file" multiple>
+        </div>
+        <hr>
+        <!--Tel Input-->
+        <div>
+            <label for="phone"><strong>Telefon Girin:</strong></label>
+            <input type="tel" name="telefon" id="phone" pattern="[0 9][3]-[0 9][3]-[0 9][2]-[0 9][2]"
+            placeholder="XXX-XXX-XX-XX" maxlength="13">
+            <!-- 0 ile 9 arasında telefon numarasına uygun dizilim ile pattern yazılır ki zorluk çekilmesin. Etkisi SUBMİT ile görülür-->
+        </div>
+        <hr>
+        <!--Select Input-->
+        <div>
+            <label for="seçenek"><strong>Hangi Tatlıyı seviyorsunuz?</strong></label>
+            <select name="select" id="seçenek">
+                <option value="">Sütlaç</option>
+                <option value="">San Sebastian</option>
+                <option value="">Ezgi Yıldırım</option>
+            </select>
+        </div>
+        <hr>
+        <!--Date Input-->
+        <div>
+            <label for="date"><strong>Doğum Tarihi:</strong></label>
+            <input type="date" name="dgko" id="date" max="2020-02-26" min="1900-12-31">
+        </div>
+        <br>
+        <!--Submit ve Reset Input-->
+        <input type="submit" id="gönder">
+        <input type="reset" value="Temizle" id="reset">
+    </form>
+
+</body>
+</html>
