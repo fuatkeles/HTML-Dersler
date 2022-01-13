@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <form action="result (1).html" method="get" name="myform" target="_blank">
+        <div>
+            <label for="cars">Choose a Car:</label>
+            <br>
+            <select name="car-select" id="cars" size="6" multiple required>
+                <optgroup label="Expensive Cars">
+                    <option value="mercedes">Mercedes</option>
+                    <option value="ferrari">Ferrari</option>
+                </optgroup>
+                <optgroup label="Others">
+                    <option value="astonmartin">Aston Martin</option>
+                    <option value="mustang">Mustang</option>
+                    <option value="porsche">Porsche</option>
+                    <option value="renault">Renault</option>
+                </optgroup>
+            </select>
+            <br>
+            <hr>
+            <br>
+            <div>
+                <label for="comment">Enter a Comment</label>
+                <br>
+                <textarea name="yorum" id="comment" cols="30" rows="10" placeholder="Yorum giriniz..." style="resize: none;"></textarea>
+            </div>
+            <br><br>
+
+        <div>
+            <label for="mybrowser">Browser:</label>
+            <br>
+            <input type="text" name="broswer-option" id="mybrowser" list="browsers">
+            <datalist id="browsers">
+                <option value="Chrome"></option>
+                <option value="Safari"></option>
+                <option value="FireFox"></option>
+                <option value="Opera"></option>
+            </datalist>
+
+            <br><br>
+            
+                <fieldset style="width: 30%"; >
+                    <legend style="text-align: center;">Personal Info:</legend>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="name" id="firstname" 
+                    placeholder="Fuat" />
+                    <br>
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="name" id="lastname" placeholder="Keleş" />
+                </fieldset>
+            
+            <br><br>
+
+            <input type="submit" name="SEND" id="Gönder">
+        </div>
+
+        </div>
+    </form>
+</body>
+</html>

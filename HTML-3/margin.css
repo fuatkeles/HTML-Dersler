@@ -1,0 +1,27 @@
+body {
+  background: aqua;
+}
+
+.box {
+  background-color: white;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.one {
+  background-color: darkslategrey;
+  height: 50px;
+}
+
+.two {
+  background-color: purple;
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.three {
+  background-color: salmon;
+  height: 150px;
+  width: 150px;
+}
