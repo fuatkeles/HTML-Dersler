@@ -1,0 +1,12 @@
+#first {
+  background-color: salmon;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  margin: 20px;
+}
+.second {
+  background-color: springgreen;
+  padding: 50px;
+}
