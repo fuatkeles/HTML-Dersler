@@ -1,0 +1,10 @@
+p {
+  background-color: tomato;
+  border: 2px solid darkblue;
+  font-size: 2rem;
+  /* outline-style: dotted;
+  outline-color: cyan; */
+  outline: 5px dashed aqua;
+  outline-offset: 4px;
+  -moz-outline-radius: 10px;
+}

@@ -1,0 +1,27 @@
+body {
+  background-color: bisque;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.main-content {
+  background-color: cornflowerblue;
+  /* width: 500px; */
+  margin: 0 auto;
+  padding: 2%;
+}
+.auto-width {
+  width: auto;
+}
+.length-width {
+  background-color: darkmagenta;
+  width: 20vw;
+}
+.percent-width {
+  background-color: darksalmon;
+  width: 50%;
+}
+.max-width {
+  background-color: thistle;
+  max-width: 700px;
+  min-width: 300px;
+}
